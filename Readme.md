@@ -38,7 +38,7 @@ On average bimg performs slightly faster so if that is the only metric you are a
 to go with. On the other hand, if you are looking for something with zero compile hassle and no external
 dependencies **imaging** is a good choice. That said, these are my subjective pros and cons with each library
 
-###Bimg
+### Bimg
 Built ontop of libvips which is an extremly well tested and maintained image library. Hence bimg can deal with
 virtually any image format, has numerous transformation capabilities and maintains image meta information (e.g. EXIF). bimg
 also offers an intutive and simple API
@@ -46,7 +46,7 @@ The one downside with bimg is that it uses libvips and as a developer/system own
 is installed on the target platform. Thus if you choose to go with bimg be prepared for some extra work and dont expect things
 to just "work"
 
-###Imaging
+### Imaging
 Imaging is a totally golang native library that uses gos inbuilt image APIs for processing. If you are primarily looking for 
 various resize/crop/blur/etc operations with a simple to use API Imaging is a good alternative. You have a variety of filters to choose
 from and if offers good performance on those. The big downside of Imagining is that it is limited to the image formats that
